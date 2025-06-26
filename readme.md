@@ -42,32 +42,16 @@ clinical-topic-modeling/
 │   │   ├── classical_models.py
 │   │   └── ensemble_models.py
 │   ├── evaluation/
-│   │   ├── __init__.py
 │   │   ├── evaluator.py
-│   │   └── metrics.py
 │   └── utils/
 │       ├── __init__.py
 │       ├── logger.py
 │       └── helpers.py
 ├── examples/
-│   ├── basic_usage.py
-│   ├── custom_dataset.py
-│   └── evaluation_example.py
+│   ├── example_usage_py
 ├── data/
-│   ├── sample_data.csv
-│   └── data_format_example.json
-├── notebooks/
-│   ├── 01_data_preparation.ipynb
-│   ├── 02_feature_extraction.ipynb
-│   └── 03_model_evaluation.ipynb
-├── tests/
-│   ├── test_data_processing.py
-│   ├── test_models.py
-│   └── test_evaluation.py
-└── docs/
-    ├── installation.md
-    ├── usage.md
-    └── api_reference.md
+│   ├── data_loader_py
+
 ```
 
 ## 🚀 Quick Start
