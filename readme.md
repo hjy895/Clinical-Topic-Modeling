@@ -1,5 +1,4 @@
-# Clinical Topic Modeling Framework
-
+# Clinical-Topic-Modeling
 A comprehensive framework for transforming unstructured clinical data into interpretable, multi-level textual representations for medical prediction tasks using BERT-based topic modeling and hierarchical feature extraction.
 
 ## 🎯 Overview
@@ -15,24 +14,11 @@ This framework enables:
 - ✅ Configurable clinical topic extraction
 - ✅ Multi-granularity text processing (word/sentence/paragraph level)
 - ✅ BERT-based embedding with hybrid pooling strategy
-- ✅ Extensive classifier comparison (25+ models including classical, ensemble, and BERT-based)
+- ✅ Extensive classifier comparison (10+ models including classical, ensemble, and BERT-based)
 - ✅ Cross-validation evaluation framework
 - ✅ Interpretable clinical predictions
 - ✅ Modular and extensible design
 
-## 🛠️ Installation
-
-### Prerequisites
-- Python 3.8+
-- CUDA-compatible GPU (optional but recommended)
-
-### Install Dependencies
-
-```bash
-git clone https://github.com/yourusername/clinical-topic-modeling.git
-cd clinical-topic-modeling
-pip install -r requirements.txt
-```
 
 ## 📁 Repository Structure
 
@@ -225,9 +211,6 @@ evaluation:
 - CatBoost (optional)
 
 ### BERT-based Models
-- BERT + Logistic Regression
-- BERT + SVM
-- BERT + Ensemble (Voting Classifier)
 - Custom BERT with Hierarchical Pooling
 
 ## 📈 Evaluation Metrics
@@ -417,7 +400,7 @@ If you use this framework in your research, please cite:
 @article{clinical_topic_modeling_2025,
   title={Integrating Clinical Topic Modeling: A BERT-Based Framework for Medical Risk Prediction},
   author={Your Name},
-  journal={Conference/Journal Name},
+  journal={Conference},
   year={2025},
   doi={your-doi}
 }
@@ -425,50 +408,12 @@ If you use this framework in your research, please cite:
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-### Development Setup
-
-```bash
-# Clone repository
-git clone https://github.com/yourusername/clinical-topic-modeling.git
-cd clinical-topic-modeling
-
-# Create development environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install in development mode
-pip install -e .
-pip install -r requirements-dev.txt
-
-# Install pre-commit hooks
-pre-commit install
-```
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+We welcome contributions! Thank You.
 
 ## 🙏 Acknowledgments
 
-- Built with [🤗 Transformers](https://huggingface.co/transformers/)
 - Inspired by clinical NLP research and topic modeling techniques
 - Thanks to the open-source community for the foundational libraries
-
-## 📞 Support
-
-- **Issues**: Please use [GitHub Issues](https://github.com/yourusername/clinical-topic-modeling/issues)
-- **Discussions**: Join our [GitHub Discussions](https://github.com/yourusername/clinical-topic-modeling/discussions)
-- **Documentation**: Visit our [documentation site](https://yourusername.github.io/clinical-topic-modeling/)
-
-## 🚀 Quick Links
-
-- [📖 Documentation](docs/)
-- [💻 Examples](examples/)
-- [📓 Notebooks](notebooks/)
-- [🧪 Tests](tests/)
-- [⚙️ Configuration](config/)
 
 ---
 
