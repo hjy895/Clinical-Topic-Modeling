@@ -19,19 +19,6 @@ This framework enables:
 - ✅ Interpretable clinical predictions
 - ✅ Modular and extensible design
 
-## 🛠️ Installation
-
-### Prerequisites
-- Python 3.8+
-- CUDA-compatible GPU (optional but recommended)
-
-### Install Dependencies
-
-```bash
-git clone https://github.com/yourusername/clinical-topic-modeling.git
-cd clinical-topic-modeling
-pip install -r requirements.txt
-```
 
 ## 📁 Repository Structure
 
