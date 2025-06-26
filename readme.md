@@ -280,23 +280,6 @@ framework.add_feature_engineer(extract_custom_features)
 results = framework.run_evaluation(data)
 ```
 
-## 🧪 Testing
-
-Run tests to ensure everything works correctly:
-
-```bash
-# Run all tests
-python -m pytest tests/
-
-# Run specific test categories
-python -m pytest tests/test_data_processing.py
-python -m pytest tests/test_models.py
-python -m pytest tests/test_evaluation.py
-
-# Run with coverage
-python -m pytest tests/ --cov=src/
-```
-
 ## 📊 Benchmarking
 
 Compare different approaches:
