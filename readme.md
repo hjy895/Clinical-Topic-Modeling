@@ -3,9 +3,9 @@ A comprehensive framework for transforming unstructured clinical data into inter
 
 ![Figure 1 mainadadadx-1](https://github.com/user-attachments/assets/8d23993c-de25-426e-beee-4f5d62ed6d65)
 
-Overview of the proposed clinical topic model for AKI Prediction. This pipeline converts unstructured ICU clinical notes from the MIMIC-IV database into categorical clinical tokens. The proposed model utilizes a BERT-based topic model architecture to encode word-, sentence-, and paragraph-level representations. These embeddings are used for binary and 3-Point AKI risk classification tasks (Definite AKI, High Risk, Low Risk).
-
 ## 🎯 Overview
+
+This is the overview of the proposed clinical topic model for AKI Prediction. This pipeline converts unstructured ICU clinical notes from the MIMIC-IV database into categorical clinical tokens. The proposed model utilizes a BERT-based topic model architecture to encode word-, sentence-, and paragraph-level representations. These embeddings are used for binary and 3-Point AKI risk classification tasks (Definite AKI, High Risk, Low Risk).
 
 This framework enables:
 - **Clinical Topic Modeling**: Transform continuous clinical variables into interpretable categorical tokens
