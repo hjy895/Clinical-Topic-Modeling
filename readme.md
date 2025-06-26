@@ -19,41 +19,6 @@ This framework enables:
 - ✅ Interpretable clinical predictions
 - ✅ Modular and extensible design
 
-
-## 📁 Repository Structure
-
-```
-clinical-topic-modeling/
-├── README.md
-├── requirements.txt
-├── config/
-│   ├── config.yaml
-│   └── model_config.yaml
-├── src/
-│   ├── __init__.py
-│   ├── data/
-│   │   ├── __init__.py
-│   │   ├── data_loader.py
-│   │   ├── preprocessor.py
-│   │   └── topic_extractor.py
-│   ├── models/
-│   │   ├── __init__.py
-│   │   ├── bert_classifier.py
-│   │   ├── classical_models.py
-│   │   └── ensemble_models.py
-│   ├── evaluation/
-│   │   ├── evaluator.py
-│   └── utils/
-│       ├── __init__.py
-│       ├── logger.py
-│       └── helpers.py
-├── examples/
-│   ├── example_usage_py
-├── data/
-│   ├── data_loader_py
-
-```
-
 ## 🚀 Quick Start
 
 ### Basic Usage
