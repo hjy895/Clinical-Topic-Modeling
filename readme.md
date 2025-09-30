@@ -1,19 +1,19 @@
-# Clinical-Topic-Modeling
+# Multi-Text BERT Framework
 A comprehensive framework for transforming unstructured clinical data into interpretable, multi-level textual representations for medical prediction tasks using BERT-based topic modeling and hierarchical feature extraction.
 
 ## 🎯 Overview
 
-This is the overview of the proposed clinical topic model for AKI Prediction. This pipeline converts unstructured ICU clinical notes from the MIMIC-IV database into categorical clinical tokens. The proposed model utilizes a BERT-based topic model architecture to encode word-, sentence-, and paragraph-level representations. These embeddings are used for binary and 3-Point AKI risk classification tasks (Definite AKI, High Risk, Low Risk).
+This is the overview of the proposed Multi-Text BERT Framework model for AKI Prediction. This pipeline converts unstructured ICU clinical notes from the MIMIC-IV database into categorical clinical tokens. The proposed model utilizes a BERT-based topic model architecture to encode word-, sentence-, and paragraph-level representations. These embeddings are used for binary and 3-Point AKI risk classification tasks (Definite AKI, High Risk, Low Risk).
 
 This framework enables:
-- **Clinical Topic Modeling**: Transform continuous clinical variables into interpretable categorical tokens
+- **Multi-Text BERT Modeling**: Transform continuous clinical variables into interpretable categorical tokens
 - **Multi-level Feature Extraction**: Extract features at word, sentence, and paragraph levels
 - **BERT-based Classification**: Enhanced BERT architecture with hierarchical pooling
 - **Flexible Evaluation**: Support for both binary and multi-class classification tasks
 
 ## 📋 Features
 
-- ✅ Configurable clinical topic extraction
+- ✅ Configurable clinical extraction
 - ✅ Multi-granularity text processing (word/sentence/paragraph level)
 - ✅ BERT-based embedding with hybrid pooling strategy
 - ✅ Extensive classifier comparison (10+ models including classical, ensemble, and BERT-based)
