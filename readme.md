@@ -297,29 +297,6 @@ results = benchmark.run_benchmark(
 benchmark.generate_report(results, output_path='benchmark_results.html')
 ```
 
-## 🔍 Interpretability
-
-Generate interpretable insights:
-
-```python
-from src.evaluation.interpretability import ModelInterpreter
-
-interpreter = ModelInterpreter()
-
-# Get feature importance
-importance = interpreter.get_feature_importance(model, feature_names)
-
-# Generate clinical insights
-insights = interpreter.generate_clinical_insights(
-    model=model,
-    data=test_data,
-    feature_names=clinical_features
-)
-
-# Create visualization
-interpreter.plot_feature_importance(importance, save_path='feature_importance.png')
-```
-
 ## 📝 Citation
 
 If you use this framework in your research, please cite:
